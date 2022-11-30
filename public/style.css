@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(199, 199, 199);
+    width: 30vw;
+    height: 5rem;
+
+    border-width: 0;
+    border-radius: 1rem;
+
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sono', sans-serif;
+
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}
